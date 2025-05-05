@@ -1,8 +1,8 @@
  # EXPERIMENT--06-INTERFACING-DIGITAL-SENSOR-ON-RASPBERRY-PI-DEVELOPMENT-BOARD-
-### NAME
-### ROLL NO:
-### DEPARTMENT 
-### DATE
+### NAME : Goutham.K
+### ROLL NO: 212223110019
+### DEPARTMENT : CSE(IoT)
+### DATE : 5/05/2025
 
 ### AIM
 interface the DHT11 digital temperature and humidity sensor with a Raspberry Pi development board and display real-time data.
@@ -78,10 +78,7 @@ open thonny python and writhe the python script as shown below
 
 
 ### PYTHON SCRIPT 
- 
-`
-
-
+ ```
 import time
 import board
 import adafruit_dht
@@ -104,16 +101,13 @@ while True:
         sensor.exit()
         raise error
     time.sleep(2.0)`
-
-
-
-
-
-
+```
 ## SCREENSHOT OF THE OUPT AND CIRCUIT 
 
 
+![image](https://github.com/user-attachments/assets/324b7fc7-b6b6-4ab1-b244-79f90e4a601c)
 
+![image](https://github.com/user-attachments/assets/a651062a-7de3-4cb6-8a46-c89cfa5417f5)
 
     
 ## RESULT:
